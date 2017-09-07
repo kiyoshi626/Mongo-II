@@ -1,6 +1,5 @@
 const fs = require('fs');
 const Posts = require('./post');
-const mongoose = require('mongoose');
 
 let savedPosts = null;
 

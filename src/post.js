@@ -29,7 +29,7 @@ const PostSchema = new mongoose.Schema({
     required: true,
   },
   score: {
-    type: String,
+    type: Number,
     required: true,
   },
   tags: [
@@ -43,7 +43,7 @@ const PostSchema = new mongoose.Schema({
   user: {
     soUserID: Number,
     name: String,
-    reputuation: String,
+    reputation: Number,
   }
 });
 
